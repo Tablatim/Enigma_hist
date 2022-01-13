@@ -53,7 +53,7 @@ setInterval(() => {
     if(texte.text != document.getElementById("sentencecode").value) {
         main()
     }
-}, 500);
+}, 10);
 
 function getPreviousLetter(letter_i) {
     if(letter_i > 0) return letter_i-1
