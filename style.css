@@ -60,8 +60,9 @@ img:hover{
     border-style: solid;
     border-radius: 10%;
     font-size: 50px;
+    width: 40px;
     padding: 0 20px 0 20px;
-    margin: 0 20px 0 20px;
+    margin: 20px 20px 0 20px
 }
 
 .rotor-nbr input {
@@ -93,4 +94,20 @@ img:hover{
 
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
-  }
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+hr {
+    margin:0 ;
+    padding: 0;
+	margin-left: -0.41em;
+	margin-right: -0.41em;
+    width: 77px;
+}
