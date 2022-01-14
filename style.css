@@ -1,4 +1,115 @@
-@import url('http://fonts.cdnfonts.com/css/mechanical');
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalOut.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalOutObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/Mechanical.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBdCondObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBdExt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBdExtObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBdObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBdOut.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBdOutObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalCond.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalCondObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalExt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalExtObl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBd.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mechanical';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mechanical'), url('https://fonts.cdnfonts.com/s/20938/MechanicalBdCond.woff') format('woff');
+}
+
 body {
     background-image: url("feuille2.jpg");
     background-repeat: no-repeat;
