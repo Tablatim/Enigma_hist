@@ -1,28 +1,36 @@
+@import url('http://fonts.cdnfonts.com/css/mechanical');
 body {
-    background-color: rgb(51,51,51);
+    background-image: url("feuille2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     text-align: center;
     height: 90vh;
+    font-family: 'Mechanical', sans-serif;
 }
 
 #bigtitle {
+    color: black;
     height: 50px;
+    font-family: 'Mechanical', sans-serif;
+    letter-spacing: 10px;
 }
 
-img:hover{
+img:hover {
     width: 21px;
     height: 21px;
     cursor: help;
-    background-color: rgba(255, 127, 0, 0.1);
     border-radius: 100%;
     border-style: solid 1px;
 }
 
 .textinput {
-    background-color: rgba(255, 127, 0, 0.1);
+    background-color: rgba(255, 127, 0, 0);
+    font-family: 'Mechanical', sans-serif;
 }
 
-#sentence, #sentencecode {
+#sentence,
+#sentencecode {
     font-size: larger;
     padding: 0;
     margin: 0;
@@ -33,7 +41,6 @@ img:hover{
     padding: 0;
 }
 
-
 .rotor {
     justify-content: center;
     display: flex;
@@ -42,22 +49,41 @@ img:hover{
 }
 
 .rotor-nbr {
-    border-color: black;
+    background-image: url('screen.JPG');
+    background-repeat: no-repeat;
+    background-size: 115px 112px;
+    border-color: rgba(51, 51, 51, 0);
     border-style: solid;
     border-radius: 5%;
     font-size: 50px;
+    margin-bottom: 0;
 }
 
 .letter {
+    color: black;
     justify-content: center;
     display: flex;
     width: auto;
     height: auto;
 }
 
-.letter-inner {
-    border-color: black;
-    border-style: solid;
+.letter-inner-top {
+    background-image: url('screen.JPG');
+    background-repeat: no-repeat;
+    background-size: 85px 63px;
+    border-style: unset;
+    border-radius: 10%;
+    font-size: 50px;
+    width: 40px;
+    padding: 0 20px 0 20px;
+    margin: 20px 20px 0 20px
+}
+
+.letter-inner-bottom {
+    background-image: url('boulon.JPG');
+    background-repeat: no-repeat;
+    background-size: 86px 134px;
+    border-style: unset;
     border-radius: 10%;
     font-size: 50px;
     width: 40px;
@@ -76,7 +102,7 @@ img:hover{
     border: none;
     font-size: 34px;
     text-align: center;
-    background-color: rgb(51,51,51);
+    background-color: rgba(51, 51, 51, 0);
 }
 
 .rotor-btn {
@@ -89,7 +115,7 @@ img:hover{
     margin-left: 10px;
     border: 1px;
     font-size: 34px;
-    background-color: rgb(51,51,51);
+    background-color: rgba(51, 51, 51, 0);
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -104,10 +130,49 @@ h6 {
     padding-bottom: 5px;
 }
 
-hr {
-    margin:0 ;
+.hor {
+    margin: 0;
     padding: 0;
-	margin-left: -0.41em;
-	margin-right: -0.41em;
+    margin-left: -0.41em;
+    margin-right: -0.41em;
     width: 77px;
 }
+
+.coin {
+    margin: 0;
+    padding: 0;
+    color: black;
+    transform: rotate(135deg);
+    width: 50px;
+    margin-left: -2em;
+    margin-bottom: -0.41em;
+}
+
+.plus {
+    background-image: url('+.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.minus {
+    background-image: url('-.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    color: black;
+}
+
+
+/* .middle {
+    color: rgba(167, 169, 0, 2);
+}
+
+.middle-t {
+    color: rgba(132, 133, 56, 0.5);
+}
+
+.middle-b {
+    color: rgba(120, 122, 0, 1);
+} */
