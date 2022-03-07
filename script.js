@@ -45,7 +45,7 @@ function main() {
                     if (e < rotors.length) {
                         newContent3.innerHTML += `
                     <h1 class="rotor-nbr">
-                    <input type="number" class="rotor-nbr-inner" min=0 max=26 value=${rotors[e%(rotors.length)]} id="${e}" onclick="rotors[this.id%(rotors.length)] = parseInt(document.getElementById(this.id).value);"></input>
+                    <input type="number" class="rotor-nbr-inner" readonly min=0 max=26 value=${rotors[e%(rotors.length)]} id="${e}" onclick="rotors[this.id%(rotors.length)] = parseInt(document.getElementById(this.id).value);"></input>
                     </br><button class="rotor-btn minus" id="${e}-" onclick="if(parseInt(document.getElementById(this.id.slice(0, -1)).value) > 0) { rotors[this.id.slice(0, -1)%(rotors.length)] = parseInt(document.getElementById(this.id.slice(0, -1)).value)-1; main()}else{ rotors[this.id.slice(0, -1)%(rotors.length)] = 25-parseInt(document.getElementById(this.id.slice(0, -1)).value); main()}"><t>-</t></button>
                     <button class="rotor-btn plus" id="${e}+" onclick="if(parseInt(document.getElementById(this.id.slice(0, -1)).value) == 25) {rotors[this.id.slice(0, -1)%(rotors.length)] = 0; main()}else{rotors[this.id.slice(0, -1)%(rotors.length)] = parseInt(document.getElementById(this.id.slice(0, -1)).value)+1; main()}"><t>+</t></button></h1>`
                     }
